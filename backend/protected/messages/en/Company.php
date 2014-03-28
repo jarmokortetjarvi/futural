@@ -18,6 +18,7 @@
  */
 return array (
   'AutomatedOrders' => 'Automated orders',
+  'BookingEntries' => 'Booking entries',
   'Companies' => '',
   'Company' => '',
   'Create' => '',
@@ -41,6 +42,9 @@ return array (
   'year' => '',
   'Created' => '',
   'Login' => '',
+  'LoginTime' => 'Login time',
+  'LogoutTime' => 'Logout time',
+  'Duration' => 'Duration',
   'OrderState' => 'Order state',
   'OrderTotal' => 'Order total',
   'TotalAmount' => 'Total amount',

@@ -18,8 +18,13 @@
  */
 return array (
   'AutomatedOrders' => 'Automaattitilaukset',
+  'BookingEntries' => 'Kirjanpitoviennit',
+  'Products' => 'Tuotteet',
   'Created' => 'Luotu',
   'Login' => 'Kirjautuminen',
+  'LoginTime' => 'Sisäänkirjaus',
+  'LogoutTime' => 'Uloskirjaus',
+  'Duration' => 'Kesto',
   'OrderState' => 'Tila',
   'OrderTotal' => 'Kokonaissumma',
   'TotalAmount' => 'Kokonaissumma',
@@ -62,6 +67,7 @@ return array (
   'Sum' => 'Summa',
   'Tag' => 'Tunnus',
   'Timesheets' => 'Tuntilomakkeet',
+  'Timecards' => 'Kellokortit',
   'TokenKey' => 'Perustamisavain',
   'Turnover' => 'Liikevaihto',
   'Users' => 'Käyttäjät',
