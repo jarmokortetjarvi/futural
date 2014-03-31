@@ -19,6 +19,7 @@
         <link rel="shortcut icon" href="<?php echo Yii::app()->request->baseUrl; ?>/css/img/favicon.ico" />
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+	<?php date_default_timezone_set('Europe/Helsinki'); ?>
 </head>
 
 <body>
