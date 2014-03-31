@@ -51,15 +51,15 @@ return array(
 		'db'=>array(
 			'connectionString' => 'mysql:host=futurality.fi;dbname=futural_core',
 			'emulatePrepare' => true,
-			'username' => 'futural',
-			'password' => 'futural',
+			'username' => 'futural_core',
+			'password' => 'ZaG6!R#curAcRA24',
 			'charset' => 'utf8',
 		),
 		'dbbank'=>array(
 			'connectionString' => 'mysql:host=futurality.fi;dbname=futural_bank',
 			'emulatePrepare' => true,
 			'username' => 'futural_bank',
-			'password' => 'futural_bank',
+			'password' => '5@eKAcas3A6#!UWr',
 			'charset' => 'utf8',
                         'class' => 'CDbConnection'
 		),
@@ -89,7 +89,7 @@ return array(
             'transportOptions' => array(
                 'host'=>'futurality.fi',
                 'username'=>'helpdesk@futurality.fi',
-                'password'=>'password',
+                'password'=>'z2dr-7U9#f',
                 'port'=>25,
             ),
  			'viewPath' => 'application.views.mail',

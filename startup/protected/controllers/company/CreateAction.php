@@ -244,7 +244,7 @@ class CreateAction extends CAction
                             $controller->redirect(array('view','id'=>$company->id));
                         }
                         else{
-                            $bankTransaction->rollback ();
+                            $bankTransaction->rollback();
                         }
                     }
                     else{
@@ -283,13 +283,14 @@ class CreateAction extends CAction
             $token = addslashes($_GET['token_key']);
             
             $record=TokenKey::model()->find(array(
-            'select'=>'token_key, reclaim_date',
-            'condition'=>'token_key=:token_key AND reclaim_date IS NULL',
+            'condition'=>'token_key=:token_key',
             'params'=>array(':token_key'=>$token),
             ));
-
             if($record !== null){
-                $form_step=2;
+            	if($record->reclaim_date == 'NULL' OR $record->tokenCustomer->id === '0'){
+                	$form_step=2;
+            	}
+            	else $form_step=1;
             }
             else {
                 $form_step=1;
