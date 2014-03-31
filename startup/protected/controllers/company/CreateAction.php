@@ -4,9 +4,11 @@
  * If creation is successful, the browser will be redirected to the 'view' page.
  */
 class CreateAction extends CAction
-{
+{	
     public function run()
     {
+    	date_default_timezone_set('Europe/Helsinki');
+    	
         // TODO: refactor the code (cut into subclassess / methods)
             $controller=$this->getController();
             
